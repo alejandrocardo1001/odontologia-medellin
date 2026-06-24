@@ -82,8 +82,8 @@ function smoothAnchorScroll(e) {
 document.addEventListener("DOMContentLoaded", () => {
   initProgressBar();
   finishProgress();
-  loadComponent("navbar", "/src/components/navbar.html");
-  loadComponent("footer", "/src/components/footer.html");
+  loadComponent("navbar", "/odontologia-medellin/src/components/navbar.html");
+  loadComponent("footer", "/odontologia-medellin/src/components/footer.html");
 
   const viaTransition = sessionStorage.getItem("vt") === "1";
   sessionStorage.removeItem("vt");
